@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: rohan2
+spec:
+  containers:
+  - name: singh3
+    image: nginx
+    ports:
+    - containerPort: 8080
+  - name: singh4
+    image: afakharany/watcher:latest
+    ports:
+    - containerPort: 9090
