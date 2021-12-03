@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: rohan
+spec:
+  containers:
+  - name: singh
+    image: nginx
+    ports:
+    - containerPort: 8080
